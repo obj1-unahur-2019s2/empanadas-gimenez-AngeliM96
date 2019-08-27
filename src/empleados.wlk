@@ -17,8 +17,8 @@ object galvan {
 		}
 		else
 		{
-			dinero = 0 
 			deuda += cuanto - dinero
+			dinero = 0 
 		}
 	}
 	method totalDinero() { return dinero }
